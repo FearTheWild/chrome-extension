@@ -28,7 +28,12 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["foreground.js"]
+      "js": [
+        "foreground.js"
+      ],
+      "css": [
+        "ftw.css"
+      ]
     }
   ]
 }

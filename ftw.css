@@ -1,1 +1,62 @@
+#ftw-popup {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #18181D;
+  border-radius: 3px;
+  box-shadow: 0 4px 28px rgb(0 0 0 / 10%);
+  width: 260px;
+  height: auto;
+  padding: 30px;
+  animation-name: fadeIn;
+  animation-duration: .5s;
+  animation-direction: normal;
+}
 
+#ftw-popup h2 {
+  font-family: 'Larsseit', Helvetica, sans-serif;
+  font-size: 26px;
+  color: white;
+  font-weight: 400;
+  margin: 0 0 20px;
+  line-height: 1;
+  letter-spacing: 0.025em;
+}
+
+#ftw-popup p {
+  font-family: 'Larsseit', Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+
+.ftw-button {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border-radius: 2px;
+  padding: 8px 12px;
+  display: table;
+  margin: 15px 0 0;
+  font-size: 12px;
+  font-family: PT Mono;
+  text-transform: uppercase;
+}
+
+.ftw-button:hover {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
